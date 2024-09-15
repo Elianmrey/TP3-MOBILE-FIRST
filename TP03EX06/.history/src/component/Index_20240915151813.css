@@ -1,0 +1,80 @@
+/* Estilos mobile-first */
+
+
+.container {
+    padding: 0 20px;
+}
+
+
+.title-h2,
+.title-h3,
+.title-h4 {
+    text-align: center;
+}
+
+
+.title-h2 {
+    font-size: 1.5rem;
+   
+}
+
+.title-h3 {
+    font-size: 1.25rem;
+  
+}
+
+.title-h4 {
+    font-size: 1.125rem;
+
+}
+
+
+.paragraph {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 0 20px;
+    font-size: 1rem;
+}
+
+
+@media (min-width: 768px) {
+    .title-h2 {
+        font-size: 2rem;
+        
+    }
+
+    .title-h3 {
+        font-size: 1.75rem;
+        
+    }
+
+    .title-h4 {
+        font-size: 1.5rem;
+        
+    }
+
+    .paragraph {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title-h2 {
+        font-size: 2.5rem;
+      
+    }
+
+    .title-h3 {
+        font-size: 2rem;
+       
+    }
+
+    .title-h4 {
+        font-size: 1.75rem;
+       
+    }
+
+    .paragraph {
+        font-size: 1.25rem;
+    }
+}

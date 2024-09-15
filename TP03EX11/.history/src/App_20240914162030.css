@@ -1,0 +1,53 @@
+/* Estilos gerais */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.theme-toggle {
+  margin: 1rem;
+}
+
+/* Mobile-first */
+.product-details,
+.related-products,
+.user-comments {
+  margin-bottom: 2rem;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .related-products .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+
+/* Estilos do menu */
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .menu ul {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,31 @@
+/* Estilos globais e media queries para dark/light mode */
+
+/* Estilos já mencionados anteriormente */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+  }
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .grid-layout {
+    grid-template-columns: 1fr 300px 300px;
+  }
+}
+
+/* Outros estilos específicos podem ser incluídos nos arquivos CSS dos componentes */

@@ -1,0 +1,14 @@
+import Index from './components/Index.jsx'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      index/>
+    </>
+  )
+}
+
+export default App
